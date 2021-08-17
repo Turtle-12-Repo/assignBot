@@ -8,3 +8,11 @@ Step-by-Step:
 4. get the message id of that new embed and copy/paste it into the code on line 77 (if message_id == <your message id>)
 5. restart the bot to save the changes made
 6. test bot by selecting the reactions and seeing if role is assigned
+
+Proper .env format:
+  DISCORD_TOKEN = <bot token here>
+  DISCORD_GUILD = Turtle-12 Bot Test Server
+  CHOICE_1 = Starfighter Corps
+  CHOICE_2 = Armored Corps
+  CHOICE_3 = Operations Corps
+  CHECKER_ROLE = Enlisted
